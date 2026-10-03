@@ -1,0 +1,55 @@
+
+.iqsikinoliki {
+    text-align: center;
+}
+
+.dafa {
+    width: 300px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    cursor: pointer;
+    background: white;
+    border: 1px solid #333;
+}
+
+.cell.winner {
+   background-color:red;
+   color:white;
+}
+
+@media (max-width: 600px) {
+
+    .iqsikinoliki {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .iqsikinoliki h1 {
+        font-size: 32px;
+    }
+    .dafa 
+    {
+        width: 300px;
+        margin: 25px auto;
+    }
+    
+    .cell {
+        width: 100px;
+        height: 100px;
+        font-size: 45px;
+    }
+    #restart {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+    #status {
+        font-size: 20px;
+    }
+}
